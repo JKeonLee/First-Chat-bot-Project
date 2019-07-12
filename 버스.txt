@@ -1,0 +1,32 @@
+
+*****서비스 키************
+wU25sEMMnY1Vw82mv%2FcrSIs0QGLAygNDPzN656edxTh28O3uh8jMBR4I3DC6TUosgRzAdKABwBCZDMU4aJgNUw%3D%3D
+****************************
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+41690 <한밭대학교>
+http://openapitraffic.daejeon.go.kr/api/rest/arrive/getArrInfoByUid?arsId=41690&serviceKey=wU25sEMMnY1Vw82mv%2FcrSIs0QGLAygNDPzN656edxTh28O3uh8jMBR4I3DC6TUosgRzAdKABwBCZDMU4aJgNUw%3D%3D
+
+
+30300039 <104번 버스>
+http://openapitraffic.daejeon.go.kr/api/rest/busRouteInfo/getStaionByRoute?busRouteId=30300039&serviceKey=wU25sEMMnY1Vw82mv%2FcrSIs0QGLAygNDPzN656edxTh28O3uh8jMBR4I3DC6TUosgRzAdKABwBCZDMU4aJgNUw%3D%3D
+
+
+1. 정류장ID 입력 
+##-> BIS-DJ-05 / 정류장 버스도착 정보 조회 서비스 ## 기능에서
+ (1) 5자리 정류장 ID 입력 ('arsId')
+ 
+2. [ 도착 예정 버스 출력 ]
+ (2) {@ 도착예정시간(EXTIME_MIN) / 최근 통과 정류소(LAST_STOP_ID) / MSG_TP ( 메시지 유형 ) / STOP_NAME ( 요청 정류소 명칭 ) /  ROUTE_NO ( 노선번호 ) / STATUS_POS (잔여정류장 수)@}
+
+ㅡ "현 위치 : " + STOP_NAME + "\n" + ROUTE_NO + "번 버스" + "STATUS_POS" + "정거장 전" + EXTIME_MIN + "후 도착 예정"
+
+
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+2. (사용자가 버스 번호 입력 )
+(1) 버스 노선 번호 입력 ('busRouteId')
+
+(2) [ 남은 정류소 목록 표시 ]
+
+ㅡ "★ 현 위치 :" + BUSSTOP_NM + " ★\n" +  "BUSSTOP_NM" + "\n"
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
